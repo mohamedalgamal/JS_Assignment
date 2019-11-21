@@ -1,0 +1,179 @@
+<html>
+    <head>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
+        
+    </head>
+    <body>
+        <h2 class="text-center">Assignment JavaScript</h2>
+        <hr class="col-2">
+        
+        
+        <!--Write a program that allow to user enter number then print it-->
+        <div class="q1">
+        <h3>Q1:</h3>
+        <div class="q1 container p-5">
+        <input class="form-control" placeholder="First name" id="iF_name">
+        <input class="form-control" placeholder="middle name" id="iM_name">
+        <input class="form-control" placeholder="Last Name" id="iL_name">
+        <input class="form-control" placeholder="Age" id="i_Age">
+        <input class="form-control" placeholder="Departmen" id="i_Department">
+        <input class="form-control" placeholder="Jop Title" id="i_jop">
+        <button onclick="q1()" class="btn btn-primary btn-lg btn-block">Done</button>
+            <div class="output1 pt-3 text-center">
+            <h6 id="uf_name"></h6>
+            <h6 id="um_name"></h6>
+            <h6 id="ul_name"></h6>
+            <h6 id="u_age"></h6>
+            <h6 id="u_department"></h6>
+            <h6 id="u_jop"></h6>    
+            </div>
+        </div>
+    </div>
+        <hr>
+        <!--Write a program that take number from user then print yes if that number can divide by 3 and 4 otherwise print no-->
+         <!--Lesa mash 3ref a3mlha Q2 -->
+        <div class="q2">
+        <h3>Q2:</h3>
+            <div class="container p-5">
+            <label>Input Number</label>    
+            <input class="form-control" id="number_value">
+            <button onclick="q2()" class="btn btn-primary btn-lg btn-block">Click Me To Calculate Value</button>    
+            </div>
+            <div class="output2 container text-center pt-3">
+            <h4 id="divide"></h4>
+            </div>    
+        </div>
+        <hr>
+        <!--Write a program that allows the user to insert 2 integers then print the max-->
+        <div class="q3">
+        <h3>Q3:</h3>
+            <div class="input-group p-5">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">First And Second Number</span>
+                    </div>
+                          <input class="form-control" id="f_number">
+                          <input class="form-control" id="s_number">
+                        <button onclick="q3()" class="btn btn-primary btn-lg btn-block">Click Here To Know Largest Number</button>
+            </div>
+            <div class="output3 container text-center pt-3">
+            <h4 id="large_number"></h4>
+            </div>   
+        </div>
+        <br>
+        <!--Write a program that allows the user to insert an integer then print negative if it is negative number otherwise print positive.-->
+        <div class="q4">
+            <h3>Q4: </h3>
+            <div class="container pt-5">
+            <label> Input Number</label>
+            <input class="form-control" id="typ_number">
+            <button onclick="q4()" class="btn btn-primary btn-lg btn-block">click her to know the number is negative or positive</button>    
+            </div>
+            <div class="output4 container text-center pt3">
+            <h4 id="type_number"></h4>
+            </div>
+        </div>
+        <hr>
+        <!--Write a program that take 3 integer from user then print the max element and the min element.-->
+        <div class="q5">
+            <div>
+                    <h3>Q5:</h3>
+                <div class="container pt-5">
+                    <label>First Number</label>
+                    <input class="form-control" id="number_1">
+                    <label>Second Number</label>
+                    <input class="form-control" id="number_2">
+                    <label>Thired Number</label>
+                    <input class="form-control" id="number_3">
+                    <button onclick="q5()" class="btn btn-primary btn-lg btn-block">click her to know the max  number and min number</button>   
+                </div>
+                <div class="output5 container text-center pt-3">
+                    <h4 id="max_number"></h4>
+                    <h4 id="min_number"></h4>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <!--Write a program that allows the user to insert integer number then Even or Odd-->
+        <div class="q6">
+            <h3>Q6:</h3>
+            <div class="container p-5">
+            <label>Input number</label>    
+            <input class="form-control" id="even_or_odd">
+            <button onclick="q6()" class="btn btn-primary btn-lg btn-block">Click Her To Know The Number Even Or Odd</button>    
+            </div>
+            <div class="container text-center pt-3">
+            <h4 id="EaO_number"></h4>
+            </div>
+        </div>
+        <br>
+        <!--Write a program that take character from user then if it is vowel chars (a,e,I,o,u) then print vowel otherwise print consonant-->
+        <div class="q7">
+            <h3>Q7:</h3>
+            <div class="container p-5">
+            <label>Input The Character</label>
+            <input class="form-control" id="character">
+            <button onclick="q7()" class="btn btn-primary btn-block btn-lg">Click Her To Know Character Vowel Or Consonant</button>    
+            </div>
+            <div class="container text-center pt-3">
+            <h4 id="character_output"></h4>
+            </div>
+        </div>
+        <hr>
+        <!--Write a program that allows user to insert integer then print all numbers between 1 to that’s number-->
+        <div class="q8">
+        <h3>Q8:</h3>
+            <div class="container p-5">
+                <label>Input The Number </label>
+                <input class="form-control" id="btn_number">
+                <button onclick="q8()" class="btn btn-primary btn-block btn-lg">Click Her To Print from 0 To your Input Number</button>
+            </div>
+             <div class="container w-25 text-center pt-3">
+            <h4 id="number_btn"></h4>
+            </div>
+        </div>
+        <hr>
+        <div class="q10">
+        <h3>Q10:</h3>
+            <div class="container p-5">
+            <label>Input The Number </label>
+                <input class="form-control" id="input_number_10">
+                <button onclick="q10()" class="btn btn-primary btn-block btn-lg">Click Her To Print from 0 To your Input Number</button>
+                </div>
+             <div class="container w-25 text-center pt-3">
+            <h4 id="number_btn_10"></h4>
+            </div>
+        </div>
+        <hr>
+        <!--Write a program that take two integers then print the power-->
+         <div class="q11">
+        <h3>Q11:</h3>
+            <div class="container p-5">
+            <label>Input The Number </label>
+                <input class="form-control" id="input_number_11">
+                <input class="form-control" id="input_number">
+                <button onclick="q11()" class="btn btn-primary btn-block btn-lg">Click Her two integers then print the power</button>
+                </div>
+             <div class="container w-25 text-center pt-3">
+            <h4 id="number_btn_11"></h4>
+            </div>
+        </div>
+        
+        
+       
+        
+        
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="js/main.js"></script>
+    </body>
+</html>
